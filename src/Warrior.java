@@ -1,6 +1,6 @@
 
 public class Warrior extends Character {
-    int damageMod;
+
 	public Warrior(int hp, int mp, int damage, String name, String type) {
 		super(hp, mp, damage, name, type);
 		
