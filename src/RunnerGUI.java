@@ -109,8 +109,7 @@ public class RunnerGUI extends JFrame implements ActionListener  {
         pnlButton.add(recentEvent);
         recentEvent.setLocation(300,300);
         recentEvent.setSize(300, 200);
-        mpCounter.setLocation(500,500);
-       
+        
         
         
         
