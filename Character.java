@@ -19,7 +19,7 @@ public abstract class Character {
 	public abstract int getDMG();
 	public abstract String getType();
 	public abstract String getName();
-	
+	//Text Based combat to this, use for testing etc.
 	public static void autoBattle(Character warrior1, Character warrior2) throws InterruptedException{
 		  do{
 			  System.out.println(warrior1.getName() +" begins the fight against "+warrior2.getName());
