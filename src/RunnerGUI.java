@@ -34,14 +34,17 @@ public class RunnerGUI extends JFrame implements ActionListener  {
     JLabel currentMP2 = new JLabel();
     JLabel healCounter = new JLabel();
     JLabel mpCounter = new JLabel();
+    
     Warrior Player1 = new Warrior(1000, 25, (int)(Math.random() * 20 + 1), "Pink Guy", "Normal");
     Warrior Player2 = new Warrior(1000, 25, (int)(Math.random() * 20 + 1), "Weeaboo", "Weeaboo"); 
     JButton[] P1 = {basicW1, healW1, manaW1, specW1};
     JButton[] P2 = {basicW2, healW2, manaW2, specW2};
+    
     private int HP1_COUNTER;
 	private int HP2_COUNTER;
 	private int MP1_COUNTER;
 	private int MP2_COUNTER;
+	
     
    
     
@@ -106,6 +109,7 @@ public class RunnerGUI extends JFrame implements ActionListener  {
         pnlButton.add(recentEvent);
         recentEvent.setLocation(300,300);
         recentEvent.setSize(300, 200);
+        mpCounter.setLocation(500,500);
        
         
         

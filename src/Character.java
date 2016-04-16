@@ -6,6 +6,7 @@ public abstract class Character {
 	protected String Name;
 	protected String Type;
 	
+	//test this
 	public Character(int hp, int mp, int damage, String name, String type)
 	{
 		HP = hp;
