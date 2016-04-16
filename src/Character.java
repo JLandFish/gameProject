@@ -93,7 +93,7 @@ public abstract class Character {
 				}
 				  if(w1Decision == 4 && w1.MP < 10)
 				    {
-				    	System.out.println(w1.getName() + " is not strong enough to compelte this acount");
+				    	System.out.println(w1.getName() + " is not strong enough to complete this action");
 				    }
 				 if(w2Decision == 1)
 				    {
@@ -128,7 +128,7 @@ public abstract class Character {
 				    }
 				    if(w2Decision == 4 && w2.MP < 10)
 				    {
-				    	System.out.println(w2.getName() + " is not strong enough to compelte this acount");
+				    	System.out.println(w2.getName() + " is not strong enough to complete this action");
 				    }
 				}while(w1.getHP() >= 1 && w2.getHP() >= 1);
 				if(w1.getHP() < 1)
