@@ -47,17 +47,17 @@ public abstract class Character {
 		 Scanner sc = new Scanner(System.in);
 		 do
 		 {
-			System.out.println("Hello User, type out 'start' to commence the battle, otherwise type out exit to quit the program");
+			System.out.println("Hello Loser, type out 'start' to commence the battle, otherwise type out exit to quit the program");
 			String Response = sc.next();
 			
 			if(Response.equalsIgnoreCase("start"))
 			{
 				do{
 				
-				System.out.println("Player 1 what would you like to do, type '1' for basic attack, '2' to regain 10 HP, '3' to regen 5 mp, '4' to use your special attack");
+				System.out.println("Player 1 what would you like to do, type '1' for basic attack, '2' to regain 10 HP, '3' to regen 5 mp, '4' to use your special attack, '5' to do nothing");
 				int w1Decision = sc.nextInt();
 				System.out.println(w2.getName() + " is the 2nd player");
-				System.out.println("Player 2 what would you you like to do, type '1' for basic attack, '2' to regain 10 HP, '3' to regen 5 mp, '4' to use your special attack");
+				System.out.println("Player 2 what would you you like to do, type '1' for basic attack, '2' to regain 10 HP, '3' to regen 5 mp, '4' to use your special attack, '5' to do nothing");
                 int w2Decision = sc.nextInt();
 				if(w1Decision == 1)
 				{
@@ -132,9 +132,9 @@ public abstract class Character {
 				    }
 				}while(w1.getHP() >= 1 && w2.getHP() >= 1);
 				if(w1.getHP() < 1)
-			    System.out.println(w1.getName() +" has lost the fight");
+			    System.out.println(w1.getName() +" has lost the fight aye lmao");
 			  else
-			    System.out.println(w2.getName() +" has lost the fight");
+			    System.out.println(w2.getName() +" has lost the fight aye lmao");
 			}
 			else
 			System.out.println("Exiting program...");
